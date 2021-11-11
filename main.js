@@ -31,7 +31,7 @@ function setup(){
   //video.hide();
   poseNet=ml5.poseNet(video,modelLoaded);
   poseNet.on('pose',gotPoses);
-  cannon_one= loadImage('cannon1.png');
+  cannon_one= loadImage('unnamed.png');
   
 }
 function modelLoaded(){
